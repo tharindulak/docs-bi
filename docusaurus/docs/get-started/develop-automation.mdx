@@ -1,0 +1,43 @@
+---
+title: Develop Automation
+description: Walkthrough for creating your first automation integration that runs on a schedule or timer.
+deployment_options:
+  - Self-hosted
+custom_edit_url: https://github.com/wso2/docs-bi/edit/main/en/docs/get-started/develop-automation.md
+---
+
+# Develop Automation
+
+## Overview
+
+In this guide, you will create a simple automation that prints `"Hello World"`.
+
+<Prerequisites>
+
+## Prerequisites
+
+Before you begin, make sure you have the following:
+
+- <b>Visual Studio Code</b>: Install <a href="https://code.visualstudio.com/">Visual Studio Code</a> if you don't have it already.
+- <b>WSO2 Integrator: BI Extension</b>: Install the WSO2 Integrator: BI extension. Refer to <a href="../install-wso2-integrator-bi/">Install WSO2 Integrator: BI</a> for detailed instructions.
+
+</Prerequisites>
+
+<Steps>
+
+## Develop automation in WSO2 Integrator: BI {/* #step-1-develop-automation-in-wso2-integrator-bi */}
+
+1. In WSO2 Integrator: BI design view, click **Add Artifact**.
+2. Select **Automation** from the Constructs menu.
+3. Click **Create** to create an automation. This directs you to the automation diagram view.
+4. Click **+** after the **Start** node to open the node panel.
+5. Select **Call Function** and select **println**.
+6. Click **+ Add Another Value**, type `"Hello World"` and click **Save**.
+
+## Run automation in WSO2 Integrator: BI {/* #step-2-run-automation-in-wso2-integrator-bi */}
+
+1. Click **Run** in the top right corner to run the automation. This compiles the automation and runs it in the embedded Ballerina runtime.
+
+    <a href="/integration/bi/assets/img/get-started/develop-automation/design-integration.gif"><img src="/integration/bi/assets/img/get-started/develop-automation/design-integration.gif" alt="Design Integration" width="80%" /></a>
+
+</Steps>

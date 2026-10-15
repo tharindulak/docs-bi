@@ -1,0 +1,665 @@
+{
+  "docs": [
+    {
+      "type": "doc",
+      "id": "index",
+      "label": "Home"
+    },
+    {
+      "type": "category",
+      "label": "Get started",
+      "items": [
+        {
+          "type": "doc",
+          "id": "get-started/quick-start-guide",
+          "label": "Quick Start Guide"
+        },
+        {
+          "type": "doc",
+          "id": "get-started/install-wso2-integrator-bi",
+          "label": "Install WSO2 Integrator: BI"
+        },
+        {
+          "type": "category",
+          "label": "Develop Integrations",
+          "items": [
+            {
+              "type": "doc",
+              "id": "get-started/develop-automation",
+              "label": "Develop Automation"
+            },
+            {
+              "type": "doc",
+              "id": "get-started/develop-ai-agent",
+              "label": "Develop AI Agent"
+            },
+            {
+              "type": "doc",
+              "id": "get-started/develop-integration-as-api",
+              "label": "Develop Integration as API"
+            },
+            {
+              "type": "doc",
+              "id": "get-started/develop-event-integration",
+              "label": "Develop Event Integration"
+            },
+            {
+              "type": "doc",
+              "id": "get-started/develop-file-integration",
+              "label": "Develop File Integration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Integration Guides",
+      "items": [
+        {
+          "type": "category",
+          "label": "AI Agents and Other Gen AI Integrations",
+          "items": [
+            {
+              "type": "category",
+              "label": "Direct LLM Invocation",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "integration-guides/ai/natural-functions/natural-functions",
+                  "label": "Natural functions(Beta)"
+                },
+                {
+                  "type": "doc",
+                  "id": "integration-guides/ai/direct-llm-call/direct-llm-invocation-with-ballerina-model-providers",
+                  "label": "Model providers"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "RAG",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "integration-guides/ai/rag/rag-ingestion",
+                  "label": "Rag Ingestion"
+                },
+                {
+                  "type": "doc",
+                  "id": "integration-guides/ai/rag/rag-query",
+                  "label": "Rag Query"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "Agents",
+              "link": {
+                "type": "doc",
+                "id": "integration-guides/ai/agents/index"
+              },
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "integration-guides/ai/agents/introduction-to-chat-agents",
+                  "label": "Introduction to Chat Agents"
+                },
+                {
+                  "type": "doc",
+                  "id": "integration-guides/ai/agents/introduction-to-inline-agents",
+                  "label": "Introduction to Inline Agents"
+                },
+                {
+                  "type": "doc",
+                  "id": "integration-guides/ai/agents/integrating-agents-with-mcp-servers",
+                  "label": "Integrating Agents with MCP Servers"
+                },
+                {
+                  "type": "doc",
+                  "id": "integration-guides/ai/agents/integrating-agents-with-external-endpoints",
+                  "label": "Integrating Agents with External Endpoints"
+                }
+              ]
+            },
+            {
+              "type": "doc",
+              "id": "integration-guides/ai/mcp-service/mcp-service",
+              "label": "MCP Service"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Integration As API",
+          "items": [
+            {
+              "type": "doc",
+              "id": "integration-guides/integration-as-api/service-orchestration",
+              "label": "Service Orchestration"
+            },
+            {
+              "type": "doc",
+              "id": "integration-guides/integration-as-api/message-transformation",
+              "label": "Message Transformation"
+            },
+            {
+              "type": "doc",
+              "id": "integration-guides/integration-as-api/message-routing",
+              "label": "Message Routing"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "File Integration",
+          "link": {
+            "type": "doc",
+            "id": "integration-guides/file-integration/index"
+          },
+          "items": [
+            {
+              "type": "category",
+              "label": "File Sources",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "integration-guides/file-integration/file-sources/local-files-integration",
+                  "label": "Local Files Integration"
+                },
+                {
+                  "type": "doc",
+                  "id": "integration-guides/file-integration/file-sources/ftp-integration",
+                  "label": "FTP Integration"
+                },
+                {
+                  "type": "doc",
+                  "id": "integration-guides/file-integration/file-sources/ftps-integration",
+                  "label": "FTPS Integration"
+                },
+                {
+                  "type": "doc",
+                  "id": "integration-guides/file-integration/file-sources/sftp-integration",
+                  "label": "SFTP Integration"
+                }
+              ]
+            },
+            {
+              "type": "doc",
+              "id": "integration-guides/file-integration/troubleshooting",
+              "label": "Troubleshooting"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Event Integration",
+          "items": [
+            {
+              "type": "category",
+              "label": "Change Data Capture (CDC)",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "integration-guides/event-integration/cdc/fraud-detection-system-with-cdc-for-mssql",
+                  "label": "Fraud Detection System with CDC for Microsoft SQL Server"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Use Cases",
+          "items": [
+            {
+              "type": "doc",
+              "id": "integration-guides/usecases/integration-service-as-a-managed-api/expose-an-integration-service-as-a-managed-api",
+              "label": "Expose an Integration Service as a Managed API"
+            },
+            {
+              "type": "doc",
+              "id": "integration-guides/usecases/connect-to-a-remote-service-using-custom-connector/connect-to-a-remote-service-using-custom-connector",
+              "label": "Connect to a Remote Service using Custom Connector"
+            },
+            {
+              "type": "category",
+              "label": "Data Mapper",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "integration-guides/usecases/datamapper/overview",
+                  "label": "Overview"
+                },
+                {
+                  "type": "doc",
+                  "id": "integration-guides/usecases/datamapper/read-csv-file-and-transform-to-xml-file",
+                  "label": "Read a CSV File and Transform It to an XML File"
+                }
+              ]
+            },
+            {
+              "type": "doc",
+              "id": "integration-guides/usecases/http/build-an-http-rest-api-for-hotel-reservation",
+              "label": "Build an HTTP REST API for Hotel Reservation"
+            },
+            {
+              "type": "doc",
+              "id": "integration-guides/usecases/tcp-chat-service/build-a-tcp-chat-service",
+              "label": "TCP Chat Service"
+            },
+            {
+              "type": "category",
+              "label": "File Integration",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "integration-guides/usecases/file-integration/sales-data-sync-with-ftp-file-integration",
+                  "label": "Sales Data Synchronization via FTP File Integration"
+                },
+                {
+                  "type": "doc",
+                  "id": "integration-guides/usecases/file-integration/contractor-timesheet-validation",
+                  "label": "Contractor Timesheet Validation"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "Database Integration",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "integration-guides/usecases/database-automation/order-processing-automation",
+                  "label": "Order Processing Automation"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Developer Guides",
+      "items": [
+        {
+          "type": "doc",
+          "id": "developer-guides/wso2-integrator-bi-artifacts",
+          "label": "WSO2 Integrator: BI Artifacts"
+        },
+        {
+          "type": "doc",
+          "id": "developer-guides/design-the-integrations",
+          "label": "Design the Integrations"
+        },
+        {
+          "type": "doc",
+          "id": "developer-guides/try-the-integration",
+          "label": "Try the Integration"
+        },
+        {
+          "type": "doc",
+          "id": "developer-guides/test-the-integrations",
+          "label": "Testing"
+        },
+        {
+          "type": "category",
+          "label": "Debugging & Troubleshooting",
+          "items": [
+            {
+              "type": "doc",
+              "id": "developer-guides/debugging-and-troubleshooting/overview",
+              "label": "Overview"
+            },
+            {
+              "type": "doc",
+              "id": "developer-guides/debugging-and-troubleshooting/debugging-within-the-editor",
+              "label": "Debugging within the Editor"
+            },
+            {
+              "type": "doc",
+              "id": "developer-guides/debugging-and-troubleshooting/remote-debugging-integrations",
+              "label": "Remote Debugging Integrations"
+            },
+            {
+              "type": "doc",
+              "id": "developer-guides/debugging-and-troubleshooting/capturing-strand-dumps",
+              "label": "Capturing Strand Dumps"
+            },
+            {
+              "type": "doc",
+              "id": "developer-guides/debugging-and-troubleshooting/profiling-runtime-performance",
+              "label": "Profiling Runtime Performance"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "AI For Integration",
+          "items": [
+            {
+              "type": "doc",
+              "id": "developer-guides/ai-for-integration/build-an-http-service-with-wso2-copilot",
+              "label": "Build an HTTP Service With BI Copilot"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Protocols and Connectors",
+          "items": [
+            {
+              "type": "doc",
+              "id": "developer-guides/protocols-and-connectors/overview-of-connectors",
+              "label": "Overview of Connectors"
+            },
+            {
+              "type": "doc",
+              "id": "developer-guides/protocols-and-connectors/how-to-use-connectors",
+              "label": "How To Use Connectors"
+            },
+            {
+              "type": "doc",
+              "id": "developer-guides/protocols-and-connectors/supported-protocols",
+              "label": "Supported Protocols"
+            },
+            {
+              "type": "doc",
+              "id": "developer-guides/protocols-and-connectors/build-custom-connectors",
+              "label": "Build Custom Connectors"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Tools",
+          "items": [
+            {
+              "type": "category",
+              "label": "Migration Tools",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "developer-guides/tools/migration-tools/overview",
+                  "label": "Overview"
+                },
+                {
+                  "type": "doc",
+                  "id": "developer-guides/tools/migration-tools/mulesoft-migration-tool",
+                  "label": "Mulesoft Migration Tool"
+                },
+                {
+                  "type": "doc",
+                  "id": "developer-guides/tools/migration-tools/tibco-businessworks-migration-tool",
+                  "label": "TIBCO BusinessWorks Migration Tool"
+                },
+                {
+                  "type": "doc",
+                  "id": "developer-guides/tools/migration-tools/logic-apps-migration-tool",
+                  "label": "Azure Logic Apps Migration Tool"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "Integration Tools",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "developer-guides/tools/integration-tools/health-tool",
+                  "label": "Health Tool"
+                },
+                {
+                  "type": "doc",
+                  "id": "developer-guides/tools/integration-tools/edi-tool",
+                  "label": "EDI Tool"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "Other Tools",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "developer-guides/tools/other-tools/scan-tool",
+                  "label": "Scan Tool"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Deploy",
+      "items": [
+        {
+          "type": "doc",
+          "id": "deploy/overview",
+          "label": "Overview"
+        },
+        {
+          "type": "doc",
+          "id": "deploy/deploy-to-devant",
+          "label": "Deploy to Devant"
+        },
+        {
+          "type": "category",
+          "label": "Containerized Deployment",
+          "items": [
+            {
+              "type": "doc",
+              "id": "deploy/containerized-deployment/overview",
+              "label": "Overview"
+            },
+            {
+              "type": "doc",
+              "id": "deploy/containerized-deployment/deploy-as-docker-image",
+              "label": "Deploy as Docker Image"
+            },
+            {
+              "type": "doc",
+              "id": "deploy/containerized-deployment/deploy-on-kubernetes",
+              "label": "Deploy on Kubernetes"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "VM-based Deployment",
+          "items": [
+            {
+              "type": "doc",
+              "id": "deploy/vm-based-deployment/overview",
+              "label": "Overview"
+            },
+            {
+              "type": "doc",
+              "id": "deploy/vm-based-deployment/deploy-on-vm-as-executable-jar",
+              "label": "Deploy on VM as Executable JAR"
+            },
+            {
+              "type": "doc",
+              "id": "deploy/vm-based-deployment/centralized-deployment",
+              "label": "Centralized Deployment"
+            },
+            {
+              "type": "doc",
+              "id": "deploy/vm-based-deployment/de-centralized-deployment",
+              "label": "Decentralized Deployment"
+            },
+            {
+              "type": "doc",
+              "id": "deploy/vm-based-deployment/github-action-for-cicd",
+              "label": "GitHub Action for CICD"
+            }
+          ]
+        },
+        {
+          "type": "doc",
+          "id": "deploy/managing-configurations",
+          "label": "Managing configurations"
+        },
+        {
+          "type": "category",
+          "label": "Capacity Planning",
+          "items": [
+            {
+              "type": "doc",
+              "id": "deploy/capacity-planning/overview",
+              "label": "Overview"
+            },
+            {
+              "type": "doc",
+              "id": "deploy/capacity-planning/performance-report-for-rest-services",
+              "label": "Performance Report for REST Services"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Deployment Best Practices",
+          "items": [
+            {
+              "type": "doc",
+              "id": "deploy/deployment-best-practices/overview",
+              "label": "Overview"
+            },
+            {
+              "type": "doc",
+              "id": "deploy/deployment-best-practices/runtime-security",
+              "label": "Runtime Security"
+            },
+            {
+              "type": "doc",
+              "id": "deploy/deployment-best-practices/os-level-security",
+              "label": "OS Level Security"
+            },
+            {
+              "type": "doc",
+              "id": "deploy/deployment-best-practices/network-level-security",
+              "label": "Network Level Security"
+            },
+            {
+              "type": "doc",
+              "id": "deploy/deployment-best-practices/configuration-best-practices",
+              "label": "Configuration Best Practices"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Observability and Monitoring",
+      "items": [
+        {
+          "type": "doc",
+          "id": "observability-and-monitoring/overview",
+          "label": "Overview"
+        },
+        {
+          "type": "doc",
+          "id": "observability-and-monitoring/monitoring-with-wso2-integrator-icp",
+          "label": "Monitoring with WSO2 Integrator: ICP"
+        },
+        {
+          "type": "doc",
+          "id": "observability-and-monitoring/observability-with-devant",
+          "label": "Observability with Devant"
+        },
+        {
+          "type": "category",
+          "label": "Supported Observability Tools and Platforms",
+          "items": [
+            {
+              "type": "doc",
+              "id": "observability-and-monitoring/supported-observability-tools-and-platforms/overview",
+              "label": "Overview"
+            },
+            {
+              "type": "doc",
+              "id": "observability-and-monitoring/supported-observability-tools-and-platforms/prometheus",
+              "label": "Prometheus"
+            },
+            {
+              "type": "doc",
+              "id": "observability-and-monitoring/supported-observability-tools-and-platforms/jaeger",
+              "label": "Jaeger"
+            },
+            {
+              "type": "doc",
+              "id": "observability-and-monitoring/supported-observability-tools-and-platforms/zipkin",
+              "label": "Zipkin"
+            },
+            {
+              "type": "doc",
+              "id": "observability-and-monitoring/supported-observability-tools-and-platforms/new-relic",
+              "label": "New Relic"
+            },
+            {
+              "type": "doc",
+              "id": "observability-and-monitoring/supported-observability-tools-and-platforms/datadog",
+              "label": "Datadog"
+            },
+            {
+              "type": "doc",
+              "id": "observability-and-monitoring/supported-observability-tools-and-platforms/elastic-stack",
+              "label": "Elastic Stack"
+            },
+            {
+              "type": "doc",
+              "id": "observability-and-monitoring/supported-observability-tools-and-platforms/opensearch",
+              "label": "OpenSearch"
+            },
+            {
+              "type": "doc",
+              "id": "observability-and-monitoring/supported-observability-tools-and-platforms/moesif",
+              "label": "Moesif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "References",
+      "items": [
+        {
+          "type": "doc",
+          "id": "references/enterprise-integrations-patterns",
+          "label": "Enterprise Integrations Patterns"
+        },
+        {
+          "type": "doc",
+          "id": "references/system-requirements",
+          "label": "System Requirements"
+        },
+        {
+          "type": "doc",
+          "id": "references/ai-usage-and-data-handling-guidelines",
+          "label": "AI Usage & Data Handling Guidelines"
+        },
+        {
+          "type": "doc",
+          "id": "references/connector-development-guidelines",
+          "label": "Connector Development Guidelines"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Release Notes",
+      "items": [
+        {
+          "type": "doc",
+          "id": "wso2-integrator-bi-release-notes",
+          "label": "Release Note"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+---
+title: FTP Integration
+description: Configure FTP-based integrations for secure and efficient remote file transfers.
+deployment_options:
+  - Self-hosted
+custom_edit_url: https://github.com/wso2/docs-bi/edit/main/en/docs/integration-guides/file-integration/file-sources/ftp-integration.md
+---
+
+# FTP Integration
+
+Learn how to create file integrations with FTP servers using WSO2 Integrator: BI.
+
+FTP integration allows you to connect to remote FTP servers to upload, download, and manage files. This is ideal for:
+
+- Transferring files to and from remote servers
+- Automated file synchronization with external systems
+- Batch file processing from remote locations
+
+## Develop an FTP Integration
+
+1. In WSO2 Integrator: BI design view, click the **+ Add Artifact** button.
+2. Select **FTP / SFTP Integration** under the **File Integration** category.
+3. Select **FTP** as the protocol for the remote server connection.
+4. Fill in the required connection properties:
+
+    | Property | Description | Example |
+    |----------|-------------|---------|
+    | Host | Hostname or IP address of the remote server | `ftp.example.com` |
+    | Port Number | Port to connect on | `21` |
+    | Folder Path | The folder on the remote server to monitor for file actions | `/uploads` |
+
+5. Select the authentication method:
+    - **No Authentication**: For anonymous FTP access
+    - **Basic Authentication**: Enter username and password
+
+    <details open>
+    <summary>Use configurable variables</summary>
+
+    Use configurable variables for connection properties (e.g., `ftpHost`, `ftpUsername`, `ftpPassword`) so they can be changed at deployment time without code changes. See [Managing Configurations](../../../deploy/managing-configurations.mdx) for more details.
+
+    </details>
+
+6. Click the **Create** button to create the FTP service.
+
+## Next steps
+
+<LinkCards>
+
+- [Local Files Integration](local-files-integration.mdx)
+- [FTPS](ftps-integration.mdx)
+- [SFTP](sftp-integration.mdx)
+- [Sales Data Sync with FTP](../../usecases/file-integration/sales-data-sync-with-ftp-file-integration.mdx)
+- [Contractor Timesheet Validation](../../usecases/file-integration/contractor-timesheet-validation.mdx)
+- [Troubleshooting](../troubleshooting.mdx)
+
+</LinkCards>
